@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "../../components/Wrapper";
 import { SignedIn, UserProfile } from "@clerk/clerk-react";
 

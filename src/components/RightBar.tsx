@@ -1,5 +1,5 @@
 import { Eye, Video } from "lucide-react";
-import React from "react";
+
 import { Link } from "react-router-dom";
 import { gameStreams, streamers } from "../source";
 import generateUniqueId from "generate-unique-id";

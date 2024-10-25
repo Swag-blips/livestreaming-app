@@ -1,4 +1,4 @@
-import * as React from "react";
+
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
 import generateUniqueId from "generate-unique-id";
 import { useUser } from "@clerk/clerk-react";

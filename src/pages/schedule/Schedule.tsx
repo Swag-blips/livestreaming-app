@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Wrapper from "../../components/Wrapper";
 import { DeleteIcon, Edit, EllipsisVertical, ShieldPlus } from "lucide-react";
 import ScheduleForm from "../../components/ScheduleForm";

@@ -1,5 +1,5 @@
 import { SignUp as SignUpComponent } from "@clerk/clerk-react";
-import React from "react";
+
 
 const SignUp = () => {
   return (

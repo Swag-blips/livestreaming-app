@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import RightBar from "./RightBar";
 
 interface Wrapper {
   children: React.ReactNode;
-  enableRightbar: boolean;
+  enableRightbar?: boolean;
 }
 const Wrapper = ({ children, enableRightbar }: Wrapper) => {
   const [openSidebar, setOpenSidebar] = useState<boolean | null>(null);

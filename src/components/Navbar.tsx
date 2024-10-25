@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Logo from "./logo";
 import { Menu, Search } from "lucide-react";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";

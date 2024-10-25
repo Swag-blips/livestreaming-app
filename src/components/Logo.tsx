@@ -1,4 +1,3 @@
-import React from "react";
 import { Podcast } from "lucide-react";
 
 interface Logo {
