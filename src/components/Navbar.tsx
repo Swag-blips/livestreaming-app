@@ -1,5 +1,5 @@
-import  { useState } from "react";
-import Logo from "./logo";
+import { useState } from "react";
+import Logo from "./Logo";
 import { Menu, Search } from "lucide-react";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import { Link } from "react-router-dom";

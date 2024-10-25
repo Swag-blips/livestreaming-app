@@ -16,13 +16,6 @@ interface ScheduleForm {
   onComplete: () => void;
 }
 
-interface Data {
-  title: string;
-  scheduleId: string | undefined;
-  date: Date | null;
-  time: Date | null;
-  description: string;
-}
 const ScheduleForm = ({
   mode,
   onClose,

@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from "./Logo";
 import { X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { routes } from "../route";
