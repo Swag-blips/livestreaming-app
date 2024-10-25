@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  height: 100vh;
+  @apply text-white bg-bgprimary;
+}
+
+.react-datepicker {
+  border-color: #555;
+  color: #ccc;
+  @apply bg-bgprimary;
+}
+
+.react-datepicker__header {
+  border-bottom-color: #555;
+  @apply bg-bgprimary;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__time-header,
+.react-datepicker__year-header {
+  @apply text-white;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__time-name {
+  @apply text-gray-300;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--in-range,
+.react-datepicker__day--in-selecting-range {
+  @apply bg-primary;
+  @apply text-white;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  @apply bg-primary;
+  @apply text-white;
+}
+
+.react-datepicker__time-container {
+  border-left-color: #555;
+  @apply bg-bgprimary;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box {
+  width: 100%;
+  @apply bg-bgprimary;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item {
+  @apply text-gray-300;
+  @apply bg-bgprimary;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--selected {
+  @apply bg-primary;
+  @apply text-white;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item:hover {
+  @apply bg-primary;
+  @apply text-white;
+}
